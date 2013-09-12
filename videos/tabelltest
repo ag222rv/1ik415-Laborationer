@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang ="sv">
+    <head>
+        <meta charset="utf-8" />
+        <title>Axels blogg</title>
+    </head>
+    
+    <body>
+<table border="1">
+<caption>Filmer jag har på DVD</caption>
+<thead>
+<tr>
+<th id="betyg">Betyg</th>
+<th id="film" >Film</th>
+<th id="genre">Genre</th>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<td colspan="3">Maria Karlsson, 2012</td>
+</tr>
+</tfoot>
+<tbody>
+<tr>
+<td header="betyg">5</td>
+<td header="film">Sagan om ringen - trilogin</td>
+<td header="genre">Äventyr</td>
+</tr>
+<tr>
+<td header="betyg">2</td>
+<td header="film">Sin city</td>
+<td>Serietidning</td>
+</tr>
+<tr>
+<td header="betyg">3</td>
+<td header="film">The Rock</td>
+<td header="genre">Action</td>
+</tr>
+</tbody>
+</table>
+    </body>
+    
+    </html>
