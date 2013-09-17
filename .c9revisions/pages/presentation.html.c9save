@@ -14,3 +14,5 @@
 {"ts":1378900543338,"patch":[[{"diffs":[[0,"on</h2>\n"],[1,"        <p>Om mig</p>\n"],[0,"        "]],"start1":252,"start2":252,"length1":16,"length2":38}]],"length":1311,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1379002627368,"patch":[[{"diffs":[[0,"  </ul>\n        "],[1,"<img src=\"../pics/katt.jpg\"><img>"],[0,"\n        <h3>Min"]],"start1":544,"start2":544,"length1":32,"length2":65}]],"length":1344,"saved":false}
 {"ts":1379002934226,"patch":[[{"diffs":[[0,"        "],[1,"<a id=\"kattbild\"></a>"],[0,"<img src"]],"start1":552,"start2":552,"length1":16,"length2":37}]],"length":1365,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1379422312694,"patch":[[{"diffs":[[0,"att.jpg\""],[-1,"><img"],[1," alt=\"../pics/katt.jpg\"/"],[0,">\n      "]],"start1":600,"start2":600,"length1":21,"length2":40}]],"length":1384,"saved":false}
+{"ts":1379422328173,"patch":[[{"diffs":[[0,"       <"],[-1,"a"],[1,"img"],[0," id=\"kat"]],"start1":553,"start2":553,"length1":17,"length2":19},{"diffs":[[0,"ild\""],[-1,"></a><img"],[0," src"]],"start1":574,"start2":574,"length1":17,"length2":8}]],"length":1377,"saved":false}
