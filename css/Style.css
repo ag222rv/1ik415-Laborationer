@@ -42,7 +42,7 @@ Background foot:        #66FF99
     width: 1200px; height:100px;
     background-color: #66FF99;
 }
-
+/*Här fixas länkfärger*/
 a
 {
 color:#FFFFFF;
@@ -55,7 +55,7 @@ a:hover
 {
 color:#CCCCFF;
 }
-
+/*Här fixar vi useendet på navigations länkarna*/
 .headcontent
 {   
 text-align:center;
@@ -102,15 +102,19 @@ background-color: #CCFF10;
 background-color: #99CC00;
 color:#FFFFFF;
 }
-
+/*Här slutar navigationen och under här äöndrar vi så det dycker upp linjer under datumen*/
 .Date
 {
 text-align:right;
 font-style:oblique;
 Border-bottom:1px Solid black;
 }
-
-
+/*Bild omgiven av text*/
+.TextPic
+{
+    float:right;
+    margin:5px;
+}
 
 
 
