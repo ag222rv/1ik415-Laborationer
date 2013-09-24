@@ -1,54 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-
-
 
 /*
 Background container:   #CCFF99
@@ -61,7 +10,6 @@ Background foot:        #66FF99
 {
     margin-left:auto; margin-right:auto; margin-top:auto; margin-bottom:auto;
     width: 1200px; height:auto;
-    border-right:1px solid black; border-left:1px solid black;border-top:1px solid black;border-bottom:1px solid black;
     background-color: #CCFF99;
 }
 
@@ -69,15 +17,13 @@ Background foot:        #66FF99
 {
     margin-left:auto; margin-right:auto; margin-top:auto; margin-bottom:auto;
     width: 1200px; height:auto;
-    border-right:1px solid black; border-left:1px solid black;border-top:1px solid black;border-bottom:1px solid black;
     background-color: #66FF99;
 }
 
 #navigation
 {
     float:left; margin-right: 2px; margin-top: 2px; margin-bottom: 2px;
-    width: 160px; height: 170px;
-    border-right:1px solid black; border-left:1px solid black;border-top:1px solid black;border-bottom:1px solid black;
+    width: 165px; height: 180px;
     background-color: #CCFF00;
 }
 
@@ -85,15 +31,13 @@ Background foot:        #66FF99
 {
     margin-left:170px; margin-right:2px; margin-top:2px; margin-bottom:2px;
     width: 1020px;
-    border-right:1px solid black; border-left:1px solid black;border-top:1px solid black;border-bottom:1px solid black;
     background-color: #66CC00;
 }
 
 #foot
 {
     margin-left:auto; margin-right:auto; margin-top:auto; margin-bottom:auto;
-    width: 1190px; height:100px;
-    border-right:1px solid black; border-left:1px solid black;border-top:1px solid black;border-bottom:1px solid black;
+    width: 1200px; height:100px;
     background-color: #66FF99;
 }
 
@@ -105,17 +49,11 @@ Background foot:        #66FF99
     margin-right: auto
 }
 
-
-p
-{
-    padding-top:10px;
-    padding-bottom:10px;
-}
-
 ul
 {
-float:left;
 list-style-type:none;
+margin:0;
+padding:0;
 }
 
 .NavigationElement:link
@@ -123,12 +61,12 @@ list-style-type:none;
 display:block;
 color:#000000;
 font-weight:bold;
-width:150px;
+width:155px;
 text-align:center;
 padding:5px;
 text-decoration:none;
 text-transform:uppercase;
-background-color: #CCFF00;
+background-color: #CCFF10;
 }
 
 .NavigationElement:visited
@@ -136,12 +74,12 @@ background-color: #CCFF00;
 display:block;
 color:#CCCCCC;
 font-weight:bold;
-width:150px;
-text-align:right;
+width:155px;
+text-align:center;
 padding:5px;
 text-decoration:none;
 text-transform:uppercase;
-background-color: #CCFF00;
+background-color: #CCFF10;
 }
 
 .NavigationElement:hover,.NavigationElement:active
@@ -149,5 +87,17 @@ background-color: #CCFF00;
 background-color: #99CC00;
 color:#FFFFFF;
 }
+
+.Date
+{
+    text-align:right;
+    font-style:oblique;
+    Border-bottom:1px Solid black;
+}
+
+
+
+
+
 
 
