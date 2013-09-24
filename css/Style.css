@@ -17,6 +17,8 @@ Background foot:        #66FF99
 {
     margin-left:auto; margin-right:auto; margin-top:auto; margin-bottom:auto;
     width: 1200px; height:auto;
+    background:url('pics/Globe.gif')0 0 no-repeat;
+    background-size:7%;
     background-color: #66FF99;
 }
 
@@ -41,12 +43,25 @@ Background foot:        #66FF99
     background-color: #66FF99;
 }
 
+a
+{
+color:#FFFFFF;
+}
+a:visited
+{
+color:#000000;
+}
+a:hover
+{
+color:#CCCCFF;
+}
+
 .headcontent
 {   
-    text-align:center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+text-align:center;
+display: block;
+margin-left: auto;
+margin-right: auto
 }
 
 ul
@@ -90,9 +105,9 @@ color:#FFFFFF;
 
 .Date
 {
-    text-align:right;
-    font-style:oblique;
-    Border-bottom:1px Solid black;
+text-align:right;
+font-style:oblique;
+Border-bottom:1px Solid black;
 }
 
 
