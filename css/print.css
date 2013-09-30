@@ -1,75 +1,57 @@
-/*
-Background container:   #CCFF99
-Background head:        #66FF99
-Background navigation:  #CCFF00
-Background content:     #66CC00
-Background foot:        #66FF99
-*/
+
 #container
 {
-    margin-left:auto; margin-right:auto; margin-top:auto; margin-bottom:auto;
+    margin-left:0px; margin-right:auto; margin-top:auto; margin-bottom:auto;
     width: 1200px; height:auto;
-    background-color: #CCFF99;
+    text-align:left;
 }
 
 #head
 {
     margin-left:auto; margin-right:auto; margin-top:auto; margin-bottom:auto;
     width: 1200px; height:auto;
-    background:url('pics/Globe.gif')0 0 no-repeat;
-    background-size:7%;
-    background-color: #66FF99;
+    padding:0px;
+    text-align:center;
 }
 
 #navigation
-{
-    float:left; margin-right: 2px; margin-top: 2px; margin-bottom: 2px;
-    width: 165px; height: 180px;
-    background-color: #CCFF00;
+{   
+    margin-left:0px;
+    height: 0px; width:0px;
+    text-decoration:none;
+    padding:none;
+    font-size:0px;
 }
 
 #content
 {
-    margin-left:170px; margin-right:2px; margin-top:2px; margin-bottom:2px;
+    margin-left:0px; margin-right:auto; margin-top:2px; margin-bottom:2px;
     width: 1020px;
-    background-color: #66CC00;
 }
 
 #foot
 {
     margin-left:auto; margin-right:auto; margin-top:auto; margin-bottom:auto;
     width: 1200px; height:100px;
-    background-color: #66FF99;
 }
-/*Här fixas länkfärger*/
+
 a
-{
-color:#FFFFFF;
+{   
+    text-decoration:none;
+    color:000000;
 }
-a:visited
+
+video
 {
-color:#000000;
+    visibility:hidden;
+    width: 0px; height:0px;
 }
-a:hover
-{
-color:#CCCCFF;
-}
-/*Här får vi en liten jordglob framför texten*/
+
 h3
 {
     
- background:url('pics/Globe.gif')0 0 no-repeat;
- background-size: 20px 20px;
- padding-left: 20px;
-}
-
-/*Här fixar vi useendet på navigations länkarna*/
-.headcontent
-{   
-text-align:center;
-display: block;
-margin-left: auto;
-margin-right: auto
+ text-decoration:none;
+ padding:0px;
 }
 
 ul
@@ -85,7 +67,7 @@ text-align:right;
 font-style:oblique;
 Border-bottom:1px Solid black;
 }
-/*Bild omgiven av text*/
+
 .Right
 {
     float:right;
