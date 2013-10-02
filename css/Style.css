@@ -72,6 +72,11 @@ margin-left: auto;
 margin-right: auto
 }
 
+ul li a
+{
+    font-size:13px;
+}
+
 ul
 {
 list-style-type:none;
@@ -136,9 +141,49 @@ Border-bottom:1px Solid black;
     margin:5px;
 }
 
+/*Sprites vid navigationsbaren*/
+#House
+{
+    background:url(pics/sprite.png) no-repeat 5px -48px;
+}
 
+#House:hover
+{
+    background:url(pics/sprite.png) no-repeat 5px 0;
+}
 
+#Hammer
+{
+    background:url(pics/sprite.png) no-repeat 5px -144px;
+}
 
+#Hammer:hover
+{
+    
+    background:url(pics/sprite.png) no-repeat 5px -96px;
+}
+
+#Portrait
+{
+
+    background:url(pics/sprite.png) no-repeat 5px -240px;
+}
+
+#Portrait:hover
+{
+    background:url(pics/sprite.png) no-repeat 5px -192px;
+}
+
+#Mail
+{
+
+    background:url(pics/sprite.png) no-repeat 5px -336px;
+}
+
+#Mail:hover
+{
+    background:url(pics/sprite.png) no-repeat 5px -288px;
+}
 
 
 
