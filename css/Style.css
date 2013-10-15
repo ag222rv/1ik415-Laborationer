@@ -180,6 +180,15 @@ text-align:right;
 font-style:oblique;
 Border-bottom:1px Solid black;
 }
+
+.Comment
+{
+text-decoration:none;
+Border-bottom:1px Solid black;
+text-align:left;
+font-style:oblique;
+Border-top:1px Solid black;
+}
 /*Bild omgiven av text*/
 .Right
 {
